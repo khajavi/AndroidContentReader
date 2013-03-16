@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:id="@+id/relative">
+	
+	
+	<android.support.v4.view.ViewPager
+	  	android:id="@+android:id/viewpager"
+	  	android:layout_width="fill_parent"
+	 	android:layout_height="wrap_content"
+	 	android:layout_alignParentTop="true"	 	
+	  	/>
+	
+		<Button android:textStyle="bold"
+		android:id="@+id/ButtonPlayStop"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:background="@android:drawable/ic_media_play" />
+
+	    	<SeekBar android:id="@+id/SeekBar"
+		android:layout_toRightOf="@+id/ButtonPlayStop"
+		android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_above="@id/ButtonPlayStop" />
+		
+	
+
+
+	    
+</RelativeLayout>

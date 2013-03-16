@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+	<item android:id="@+id/font_size_menu"
+	        android:title="اندازهٔ قلم" />
+	<item android:id="@+id/about_content"
+	  	android:title="دربارهٔ محتوای آموزشی" />
+	<item android:id="@+id/contact_us_menu"
+	  		android:title="تماس با ما" />
+	<item android:id="@+id/feedback_menu"
+		android:title="ارسال نظر دانشجو" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:stretchColumns="1"
+  >
+
+  <TableRow>
+       <EditText android:id="@+id/name"
+     	android:gravity="left" />
+    <TextView android:text="نام: "
+    	android:gravity="right"
+    	android:layout_gravity="right"/>
+
+  </TableRow>
+  <TableRow>
+     <EditText android:id="@+id/addr"
+     	android:layout_gravity="right" />
+     <TextView android:text="Address:" />
+  </TableRow>
+  	<TextView android:text="Comment: " />
+    <TableRow android:layout_height="fill_parent"> 
+  </TableRow>
+       <EditText android:id="@+id/comment"
+     	android:layout_height="fill_parent" />
+  <TableRow>
+  <Button android:id="@+id/save" android:text="Save"/>
+ </TableRow> 
+</TableLayout>
+      
